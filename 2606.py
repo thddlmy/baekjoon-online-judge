@@ -1,4 +1,7 @@
 # DFS - 바이러스
+# Solution
+# (1) 양방향 그래프! -> o
+
 N = int(input())
 K = int(input())
 graph = []
@@ -28,5 +31,3 @@ for i in range(N):
         count +=1
 
 print(count-1)
-
-# Solution - 양방향 그래프!
